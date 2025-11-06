@@ -1,0 +1,156 @@
+# 🐧 Linux Learning - Day 2
+
+---
+
+## 📅 Date
+**November 6, 2025**
+
+---
+
+## 📘 1. Introduction
+This README documents my **Day 2 progress** in learning Linux commands using **LabEx**.  
+The focus of the day was on **file manipulation**, **directory management**, **content viewing**, and **file comparison** commands — essential skills for any system administrator or DevOps engineer.  
+
+---
+
+## ⚙️ 2. Learning Objectives
+The goal for today’s session was to:
+- Master copying and renaming files/directories.
+- Learn how to delete files/directories safely.
+- Explore commands for viewing and comparing file contents.
+- Understand Linux’s **case-sensitive file system**.
+
+---
+
+## 📂 3. Tasks and Commands Practiced
+
+### 🗂️ A. Copying Files and Directories
+Learned how to use the `cp` command to duplicate files and folders.
+
+```bash
+cp ~/.zshrc ~/Desktop/zshrc-copy
+cp -r ~/Code ~/Desktop/
+
+Explanation:
+
+cp → copies files.
+
+-r → recursively copies all files and subdirectories.
+
+ls -l ~/Desktop
+
+✏️ B. Renaming Files and Directories
+
+Practiced renaming using the mv command.
+
+mv ~/Desktop/zshrc-copy ~/Desktop/zshrc-move
+mv ~/Desktop/Code ~/Desktop/Code-move
+
+
+Explanation:
+
+mv → used to move or rename files and directories.
+
+When used within the same path, it renames instead of moves.
+
+🗑️ C. Removing Files and Directories
+
+Used the rm command to delete files and directories permanently.
+
+rm ~/Desktop/zshrc-move
+rm -r ~/Desktop/Code-move
+
+
+Explanation:
+
+rm → removes files permanently.
+
+-r → required for deleting directories and their contents.
+
+📄 D. Viewing File Contents
+
+Explored multiple commands to read file contents efficiently.
+
+cat /tmp/hello
+cat -n /tmp/hello
+head -n1 /tmp/hello
+head -c1 /tmp/hello
+tail -n1 /tmp/hello
+tail -c2 /tmp/hello
+
+
+Example Output:
+
+Hi,
+I am Labby!
+
+
+Explanation:
+
+cat → view the entire file.
+
+head → show top lines or characters.
+
+tail → show bottom lines or characters.
+
+-n → number of lines.
+
+-c → number of characters.
+
+⚖️ E. Comparing Files and Directories
+
+Learned to compare file and directory contents using diff.
+
+diff file1 file2
+
+
+Example Output:
+
+1c1
+< this is file1
+---
+> this is file2
+
+
+To compare directories recursively:
+
+diff -r ~/Desktop ~/Code
+
+
+Explanation:
+
+diff → compares line-by-line differences.
+
+-r → recursively compares directories.
+
+Linux treats Code and code as different directories (case-sensitive).
+
+🧠 4. Key Takeaways
+
+Linux file and directory names are case-sensitive.
+
+cp, mv, and rm are the fundamental commands for managing files.
+
+Use head and tail for reading specific portions of files.
+
+Use diff to compare files or directories efficiently.
+
+Be cautious with rm — it permanently deletes files.
+
+🚀 5. Next Goals
+
+For the next session (Day 3), I will learn about:
+
+File permissions using chmod
+
+File ownership using chown
+
+Viewing permissions using ls -l
+
+✍️ Author
+
+Aryan Sarvaiya
+
+Platform: LabEx Linux Labs
+
+📁 Repository: Linux-Learning-Journey
