@@ -2,10 +2,7 @@
 
 ---
 
-## 📅 Date
-**November 8, 2025**
 
----
 
 ## 🧩 Topic: Examining File Contents
 
