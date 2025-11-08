@@ -1,7 +1,5 @@
 # 🐧 Linux Practice Log — Day 1
 
-**Date:** November 5, 2025  
-**Platform:** [LabEx](https://labex.io)  
 **Topic:** File and Directory Management in Linux
 
 ---
