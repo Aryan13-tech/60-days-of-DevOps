@@ -2,11 +2,6 @@
 
 ---
 
-## 📅 Date
-**November 6, 2025**
-
----
-
 ## 📘 1. Introduction
 This README documents my **Day 2 progress** in learning Linux commands using **LabEx**.  
 The focus of the day was on **file manipulation**, **directory management**, **content viewing**, and **file comparison** — all essential skills for system administrators and DevOps engineers.
