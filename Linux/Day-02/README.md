@@ -19,6 +19,7 @@ The main goals for today’s session were:
 
 ## 📂 3. Tasks and Commands Practiced
 
+
 ### 🗂️ A. Copying Files and Directories
 Learned how to use the `cp` command to duplicate files and folders.
 
