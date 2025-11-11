@@ -12,6 +12,7 @@
 - `cd ~` — Go to the home directory.
 - `cd /path/to/dir` — Navigate to a specific path.
 
+
 ### 2. Listing Files
 - `ls` — List files in the current directory.
 - `ls -a` — List all files, including hidden ones.
