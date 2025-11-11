@@ -15,6 +15,8 @@
 
 ### 2. Listing Files
 - `ls` — List files in the current directory.
+
+  
 - `ls -a` — List all files, including hidden ones.
 - `ls -l` — List files in long format (permissions, owner, size, etc.).
 - `ls -la` — Combination of `-l` and `-a`.
