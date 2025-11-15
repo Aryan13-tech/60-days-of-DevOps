@@ -15,6 +15,7 @@ The main goals for today’s session were:
 - Explore commands for viewing and comparing file contents.  
 - Understand Linux’s **case-sensitive file system**.  
 
+
 ---
 
 ## 📂 3. Tasks and Commands Practiced
